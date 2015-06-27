@@ -1,0 +1,99 @@
+@font-face {
+	font-family: "BlackCasper";
+	src: url("../assets/font/BlackCasper/BlackCasper.ttf");
+}
+
+@font-face {
+	font-family: "Harting";
+	src: url("../assets/font/Harting/Harting_plain.ttf");
+}
+
+@font-face {
+	font-family: "Eraser";
+	src: url("../assets/font/Eraser/EraserRegular.ttf");
+}
+
+
+
+body {
+	width: 88%;
+	margin: 14% auto;
+	text-align: center;
+	background-image: url("../assets/img/musician_gig.gif");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	margin: 20px auto 0px auto;
+	font-family: BlackCasper;
+	font-size: 60pt;
+	color: #84000F;
+}
+
+#btn {
+	margin: 8px auto;
+	width: 30%;
+	height: 30px;
+	font-family: Harting;
+	font-size: 20pt;
+}
+
+input[type=submit] {
+	font-family: Harting;
+	font-size: 14pt;
+}
+
+input[type=text] {
+	font-family: Harting;
+	font-size: 14pt;
+}
+
+.ui-menu {
+	margin: 20px auto;
+	text-align: center;
+	padding-right: 30px;
+	font-family: Harting;
+	color: #9F0013;
+
+}
+
+.ui-autocomplete {
+	text-align: center;
+	margin: 10px auto;
+	max-width: 110px;
+	max-height: 80px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.ui-helper-hidden-accessible {
+	display: none;
+}
+
+ul.ui-autocomplete {
+	list-style: none;
+	margin: 10px auto;
+	text-align: center;
+}
+
+span {
+	margin: 20% 6px 10px 6px;
+}
+
+.bndNm {
+	font-family: Eraser;
+	font-size: 35pt;
+	color:#9F0013;
+}
+
+.adWrd {
+	font-family: Harting;
+	font-size: 15pt;
+	color: #9F0013;
+	font-weight: bolder;
+}
+
+
+
